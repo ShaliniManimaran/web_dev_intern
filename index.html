@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #ffffff, #f3e7ff);
+            flex-direction: column; /* added to align content vertically */
+            text-align: center; /* added to align text in the center horizontally */
+        }
+
+        .custom-button {
+            background-color: #d084f9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+    </style>
+    <title>Custom Button</title>
+</head>
+<body>
+    <button class="custom-button">ABC Company</button>
+    <p>Welcome to ABC Company, where a dedicated team of professionals works<br> together to bring innovation, creativity, and expertise to the software industry. Get to know <br>the individuals who make our company thrive.</p>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .violet-line {
+            width: 100%;
+            text-align: center;
+            overflow: hidden;
+            line-height: 1em;
+            color: #d084f9; /* Violet color */
+        }
+
+        .violet-line::before {
+            content: "----------------------------------------------"; /* 32 dashes */
+            display: block;
+            letter-spacing: 0.3em; /* Adjust the spacing between dashes */
+        }
+    </style>
+    <title>Violet Line</title>
+</head>
+<body>
+    <div class="violet-line"></div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #ffffff, #f3e7ff);
+            flex-direction: column; /* align content vertically */
+            text-align: center; /* center align text */
+        }
+
+        h1 {
+            font-size: 1.5rem; /* adjust font size as needed */
+            color: #333; /* text color */
+            margin-bottom: 20px; /* space below heading */
+        }
+    </style>
+    <title>Meet Our Team</title>
+</head>
+<body>
+    <h1>Meet Our Team</h1>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #ffffff, #f3e7ff);
+        }
+
+        .custom-button {
+            background-color: #d084f9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+    </style>
+    <title>Custom Button</title>
+</head>
+<body>
+    <button class="custom-button">Leadership / Management Team</button>
+</body>
+</html>
+
+
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .image-container {
+            font-size: 0; /* Remove inline-block's white space behavior */
+        }
+
+        .image-container img {
+            display: inline-block; /* Set images to display inline */
+            margin-right: 20px; /* Adjust this value as needed */
+            vertical-align: middle; /* Align images vertically */
+        }
+
+        /* Add extra margin for the last image to compensate for the gap */
+        .image-container img:last-child {
+            margin-right: 0; /* Set margin-right to 0 for the last image */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Founder Name</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Center-align the content */
+        }
+
+        .founder-name {
+            font-weight: bold; /* Make the text bold */
+        }
+    </style>
+</head>
+<body>
+    <p>[Founder Name] <strong class="founder-name"></strong>  [Founder Name]  <strong class="founder-name"></strong></p>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Founder Name</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Center-align the content */
+        }
+
+        .italic-text {
+            font-style: italic; /* Make the text italic */
+            color: #a9a9a9; /* Light ash color */
+            font-size: 0.9em; /* Smaller font size */
+            margin:0 5px; /* Add space around the text */
+        }
+    </style>
+</head>
+<body>
+    <p><span class="italic-text">Founder CEO</span> <strong> </strong> <span class="italic-text">Founder CEO</span> <strong> </strong></p>
+</body>
+</html>
+
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .image-container {
+            font-size: 0; /* Remove inline-block's white space behavior */
+        }
+
+        .image-container img {
+            display: inline-block; /* Set images to display inline */
+            margin-right: 20px; /* Adjust this value as needed */
+            vertical-align: middle; /* Align images vertically */
+        }
+
+        /* Add extra margin for the last image to compensate for the gap */
+        .image-container img:last-child {
+            margin-right: 0; /* Set margin-right to 0 for the last image */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Founder Name</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Center-align the content */
+        }
+
+        .founder-name {
+            font-weight: bold; /* Make the text bold */
+        }
+
+        .italic-text {
+            font-style: italic; /* Make the text italic */
+            color: #a9a9a9; /* Light ash color */
+            font-size: 0.9em; /* Smaller font size */
+            margin: 0 5px; /* Add space around the text */
+        }
+    </style>
+</head>
+<body>
+    <p>[Founder Name] <strong class="founder-name"></strong>  [Founder Name]  <strong class="founder-name"></strong> [Founder Name]  <strong class="founder-name"></strong></p>
+    <p><span class="italic-text">Founder CEO</span> <strong> </strong>  <span class="italic-text">Founder CEO</span> <strong> </strong>  <span class="italic-text">Founder CEO</span> <strong> </strong></p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .violet-line {
+            width: 100%;
+            text-align: center;
+            overflow: hidden;
+            line-height: 1em;
+            color: #d084f9; /* Violet color */
+        }
+
+        .violet-line::before {
+            content: "----------------------------------------------"; /* 32 dashes */
+            display: block;
+            letter-spacing: 0.3em; /* Adjust the spacing between dashes */
+        }
+    </style>
+    <title>Violet Line</title>
+</head>
+<body>
+    <div class="violet-line"></div>
+</body>
+</html><br>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #ffffff, #f3e7ff);
+        }
+
+        .custom-button {
+            background-color: #d084f9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+    </style>
+    <title>Custom Button</title>
+</head>
+<body>
+    <button class="custom-button">Development Team</button>
+</body>
+</html>
+
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .image-container {
+            font-size: 0; /* Remove inline-block's white space behavior */
+        }
+
+        .image-container img {
+            display: inline-block; /* Set images to display inline */
+            margin-right: 20px; /* Adjust this value as needed */
+            vertical-align: middle; /* Align images vertically */
+        }
+
+        /* Add extra margin for the last image to compensate for the gap */
+        .image-container img:last-child {
+            margin-right: 0; /* Set margin-right to 0 for the last image */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Founder Name</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Center-align the content */
+        }
+
+        .founder-name {
+            font-weight: bold; /* Make the text bold */
+        }
+
+        .italic-text {
+            font-style: italic; /* Make the text italic */
+            color: #a9a9a9; /* Light ash color */
+            font-size: 0.9em; /* Smaller font size */
+            margin: 0 5px; /* Add space around the text */
+        }
+    </style>
+</head>
+<body>
+    <p>[Devepoler Name] <strong class="devepoler-name"></strong> [Devepoler Name] <strong class="devepoler-name"></strong>  [Devepoler Name]  <strong class="devepoler-name"></strong> [Developer Name]  <strong class="devepoler-name"></strong></p>
+    <p><span class="italic-text">Software Eng</span> <strong> </strong> <span class="italic-text">Software Eng</span> <strong> </strong> <span class="italic-text">Software Eng</span> <strong> </strong>  <span class="italic-text">Software Eng</span> <strong> </strong></p>
+</body>
+</html>
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .image-container {
+            font-size: 0; /* Remove inline-block's white space behavior */
+        }
+
+        .image-container img {
+            display: inline-block; /* Set images to display inline */
+            margin-right: 20px; /* Adjust this value as needed */
+            vertical-align: middle; /* Align images vertically */
+        }
+
+        /* Add extra margin for the last image to compensate for the gap */
+        .image-container img:last-child {
+            margin-right: 0; /* Set margin-right to 0 for the last image */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Founder Name</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Center-align the content */
+        }
+
+        .founder-name {
+            font-weight: bold; /* Make the text bold */
+        }
+
+        .italic-text {
+            font-style: italic; /* Make the text italic */
+            color: #a9a9a9; /* Light ash color */
+            font-size: 0.9em; /* Smaller font size */
+            margin: 0 5px; /* Add space around the text */
+        }
+    </style>
+</head>
+<body>
+    <p>[Devepoler Name] <strong class="devepoler-name"></strong> [Devepoler Name] <strong class="devepoler-name"></strong>  [Devepoler Name]  <strong class="devepoler-name"></strong>  </p>
+    <p><span class="italic-text">Software Eng</span> <strong> </strong> <span class="italic-text">Software Eng</span> <strong> </strong> <span class="italic-text">Software Eng</span> <strong> </strong>   </p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .violet-line {
+            width: 100%;
+            text-align: center;
+            overflow: hidden;
+            line-height: 1em;
+            color: #d084f9; /* Violet color */
+        }
+
+        .violet-line::before {
+            content: "----------------------------------------------"; /* 32 dashes */
+            display: block;
+            letter-spacing: 0.3em; /* Adjust the spacing between dashes */
+        }
+    </style>
+    <title>Violet Line</title>
+</head>
+<body>
+    <div class="violet-line"></div>
+</body>
+</html><br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #ffffff, #f3e7ff);
+        }
+
+        .custom-button {
+            background-color: #d084f9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+    </style>
+    <title>Custom Button</title>
+</head>
+<body>
+    <button class="custom-button">Sales and Marketing Team</button>
+</body>
+</html>
+
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .image-container {
+            font-size: 0; /* Remove inline-block's white space behavior */
+        }
+
+        .image-container img {
+            display: inline-block; /* Set images to display inline */
+            margin-right: 20px; /* Adjust this value as needed */
+            vertical-align: middle; /* Align images vertically */
+        }
+
+        /* Add extra margin for the last image to compensate for the gap */
+        .image-container img:last-child {
+            margin-right: 0; /* Set margin-right to 0 for the last image */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Founder Name</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Center-align the content */
+        }
+
+        .founder-name {
+            font-weight: bold; /* Make the text bold */
+        }
+
+        .italic-text {
+            font-style: italic; /* Make the text italic */
+            color: #a9a9a9; /* Light ash color */
+            font-size: 0.9em; /* Smaller font size */
+            margin: 0 5px; /* Add space around the text */
+        }
+    </style>
+</head>
+<body>
+    <p>[Employee Name] <strong class="employee-name"></strong> [Employee Name] <strong class="employee-name"></strong>  [Employee Name]  <strong class="employee-name"></strong> [Employee Name]  <strong class="employee-name"></strong></p>
+    <p><span class="italic-text">Sales Officer</span> <strong> </strong> <span class="italic-text">Sales Officer</span> <strong> </strong> <span class="italic-text">Sales Officer</span> <strong> </strong>  <span class="italic-text">Sales Officer</span> <strong> </strong></p>
+</body>
+</html>
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .image-container {
+            font-size: 0; /* Remove inline-block's white space behavior */
+        }
+
+        .image-container img {
+            display: inline-block; /* Set images to display inline */
+            margin-right: 20px; /* Adjust this value as needed */
+            vertical-align: middle; /* Align images vertically */
+        }
+
+        /* Add extra margin for the last image to compensate for the gap */
+        .image-container img:last-child {
+            margin-right: 0; /* Set margin-right to 0 for the last image */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+        <img src="no-avatar-male.jpg" width="100" height="100">
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Founder Name</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Center-align the content */
+        }
+
+        .founder-name {
+            font-weight: bold; /* Make the text bold */
+        }
+
+        .italic-text {
+            font-style: italic; /* Make the text italic */
+            color: #a9a9a9; /* Light ash color */
+            font-size: 0.9em; /* Smaller font size */
+            margin: 0 5px; /* Add space around the text */
+        }
+    </style>
+</head>
+<body>
+    <p>[Founder Name] <strong class="founder-name"></strong>  [Founder Name]  <strong class="founder-name"></strong> [Founder Name]  <strong class="founder-name"></strong></p>
+    <p><span class="italic-text">Officer Name</span> <strong> </strong>  <span class="italic-text">>Officer Name</span> <strong> </strong>  <span class="italic-text">>Officer Name</span> <strong> </strong></p>
+</body>
+</html>
+
+
+
+
+           
+
+        
+
